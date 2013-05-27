@@ -11,5 +11,5 @@ class TestFunctions(unittest.TestCase):
     pass
 
   def test_sample(self):
-    self.assetEqual(1, 1)
+    self.assetEqual(1, 2)
 
