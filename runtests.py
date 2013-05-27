@@ -13,3 +13,5 @@ class TestFunctions(unittest.TestCase):
   def test_sample(self):
     self.assetEqual(1, 2)
 
+if __name__ == "__main__":
+  unittest.main()
