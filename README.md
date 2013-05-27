@@ -1,5 +1,6 @@
 test-repository
 ===============
-[![Build Status](https://travis-ci.org/[woorlds]/[test-repository].png)](https://travis-ci.org/[woorlds]/[test-repository])
+
+* [![build status](https://secure.travis-ci.org/woorlds/test-repository.png)](https://travis-ci.org/woorlds/test-repository) on travis-ci.org (master branch)
 
 test-repository
