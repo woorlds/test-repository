@@ -6,5 +6,4 @@ python:
     - 3.3
 
 script:
-    - cd maint
-    - python runtests
+    - python -m test.runtests
