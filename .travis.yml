@@ -6,4 +6,4 @@ python:
     - 3.3
 
 script:
-    - python -m test.runtests
+    - python -m runtests
