@@ -62,7 +62,7 @@ void display_node_list()
 		}
 }
 
-int main(int argc, char** argc)
+void main(void)
 {
 		init_list();
 		insert_node(10);
@@ -74,6 +74,4 @@ int main(int argc, char** argc)
 
 		delete_node(30);
 		display_node_list();
-
-		return 1;
 }
