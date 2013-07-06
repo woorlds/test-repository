@@ -8,9 +8,5 @@ install:
     - sudo apt-get update
     - sudo apt-get install cmake valgrind
 
-script:
-    - mkdir _build
-    - cd _build
-
 after_success:
-    - valgrind --tool=memcheck --leak-check=full ./c linked-list.c
+    - valgrind --tool=memcheck --leak-check=full ./linked-list
