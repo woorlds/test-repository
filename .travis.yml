@@ -1,11 +1,11 @@
 language: c
 
 compiler:
-        - gcc
-        - clang
+    - gcc
+    - clang
 
  install:
-        - sudo apt-get install valgrind
+    - sudo apt-get install valgrind
 
  after_success:
-        - valgrind --leak-check=yes
+    - valgrind --leak-check=yes
