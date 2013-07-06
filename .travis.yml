@@ -5,7 +5,5 @@ compiler:
     - clang
 
  install:
+    - sudo apt-get update
     - sudo apt-get install valgrind
-
- after_success:
-    - valgrind --leak-check=yes
