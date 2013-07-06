@@ -1,9 +1,11 @@
-language: python
-python:
-    - 2.6
-    - 2.7
-    - 3.2
-    - 3.3
+language: c
 
-script:
-    - python -m runtests
+compiler:
+        - gcc
+        - clang
+
+ install:
+        - sudo apt-get install valgrind
+
+ after_success:
+        - valgrind --leak-check=yes
