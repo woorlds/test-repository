@@ -13,4 +13,4 @@ script:
     - cd _build
 
 after_success:
-    - valgrind --leak-check=yes
+    - valgrind --tool=memcheck --leak-check=yes ./linked-list.c
