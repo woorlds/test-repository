@@ -6,7 +6,11 @@ compiler:
 
 install:
     - sudo apt-get update
-    - sudo apt-get install valgrind
+    - sudo apt-get install cmake valgrind
 
 script:
-    - mkdir _temp
+    - mkdir _build
+    - cd _build
+
+after_success:
+    - valgrind --leak-check=yes
