@@ -59,13 +59,13 @@ void display_node_list()
 				}else{
 						printf("%d\n", display_node->data);
 				}
+				display_node=display_node->next;
 		}
 }
 
 int main(void)
 {
 		init_list();
-		/* 
 		insert_node(10);
 		insert_node(20);
 		insert_node(30);
@@ -75,7 +75,6 @@ int main(void)
 
 		delete_node(30);
 		display_node_list();
-		*/
 
 		printf("Hello world\n");
 
