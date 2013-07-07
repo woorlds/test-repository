@@ -1,9 +1,24 @@
-language: python
-python:
-    - 2.6
-    - 2.7
-    - 3.2
-    - 3.3
+# Travis-CI Build for test-repository
+# see travis-ci.org for details
+language: c
 
+# GCC & CLANG compiler
+compiler:
+    - gcc
+    - clang
+
+#Make sure CMake and valgrind installed
+install:
+    - sudo apt-get update
+    - sudo apt-get install cmake valgrind
+
+# Run the make script
 script:
-    - python -m runtests
+    - mkdir _build
+    - cd _build
+    - cmake ..
+    - make
+
+# Run Tests
+after_success:
+    - valgrind --tool=memcheck --leak-check=yes ./linked-list
