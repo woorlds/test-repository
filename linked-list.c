@@ -62,9 +62,10 @@ void display_node_list()
 		}
 }
 
-void main(void)
+int main(void)
 {
 		init_list();
+		/* 
 		insert_node(10);
 		insert_node(20);
 		insert_node(30);
@@ -74,4 +75,9 @@ void main(void)
 
 		delete_node(30);
 		display_node_list();
+		*/
+
+		printf("Hello world\n");
+
+		return 1;
 }
