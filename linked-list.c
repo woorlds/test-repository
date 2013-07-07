@@ -1,4 +1,5 @@
 #include "linked-list.h"
+#include "bubble-sort.h"
 
 void init_list()
 {
@@ -75,6 +76,8 @@ int main(void)
 
 		delete_node(30);
 		display_node_list();
+
+		bubble_sort();
 
 		return 1;
 }
