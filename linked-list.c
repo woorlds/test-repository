@@ -76,7 +76,5 @@ int main(void)
 		delete_node(30);
 		display_node_list();
 
-		printf("Hello world\n");
-
 		return 1;
 }
