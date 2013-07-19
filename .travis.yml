@@ -21,4 +21,4 @@ script:
 
 # Run Tests
 after_success:
-    - valgrind --tool=memcheck --leak-check=yes ./linked-list
+    - valgrind --tool=memcheck --leak-check=yes ./test-repository
