@@ -8,4 +8,3 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
 # Executable
 ADD_EXECUTABLE(test-repository linked-list)
-ADD_LIBRARY(test-repository bubble-sort)
