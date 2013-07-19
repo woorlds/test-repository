@@ -8,4 +8,4 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 
 # Executable
 ADD_EXECUTABLE(test-repository test-repository.c)
-ADD_EXECUTABLE(test-repository hello.c)
+ADD_LIBRARY(test-repository hello.c)
