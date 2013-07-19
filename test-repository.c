@@ -29,9 +29,6 @@ void insert_node(const int value)
 
 		new_node->next=tail;
 		search_node->next=new_node;
-
-		free(new_node);
-		free(search_node);
 }
 
 void delete_node(const int value)
