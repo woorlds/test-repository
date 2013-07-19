@@ -77,6 +77,10 @@ int main(void)
 
 		delete_node(30);
 		display_node_list();
+		delete_node(10);
+		delete_node(20);
+		delete_node(30);
+		delete_node(40);
 
 		hello_world();
 
