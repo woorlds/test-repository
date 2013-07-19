@@ -1,5 +1,5 @@
-#ifndef __LINKED_LIST_H__
-#define __LINKED_LIST_H__
+#ifndef TEST_REPOSITORY_H
+#define TEST_REPOSITORY_H
 
 #include "common.h"
 
