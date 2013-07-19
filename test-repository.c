@@ -1,4 +1,5 @@
 #include "test-repository.h"
+#include "hello.h"
 
 void init_list()
 {
@@ -75,6 +76,8 @@ int main(void)
 
 		delete_node(30);
 		display_node_list();
+
+		hello_world();
 
 		return 1;
 }
