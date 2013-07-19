@@ -1,5 +1,6 @@
 #include "test-repository.h"
 #include "hello.h"
+#include "test.h"
 
 void init_list()
 {
@@ -78,6 +79,8 @@ int main(void)
 		display_node_list();
 
 		hello_world();
+
+		test();
 
 		return 1;
 }
