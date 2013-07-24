@@ -76,5 +76,7 @@ int main(void)
 		delete_node(30);
 		display_node_list();
 
+		printf("getter test1");
+
 		return 1;
 }
